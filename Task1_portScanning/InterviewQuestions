@@ -1,0 +1,31 @@
+What is an open port?
+An open port is a network port that accepts incoming connections, allowing services like web servers or SSH to communicate.
+Example: Port 80 open means a web server is accessible.
+
+How does Nmap perform a TCP SYN scan?
+Nmap sends a SYN packet; if it gets SYN-ACK, the port is open, then it resets the connection to avoid full handshake.
+Example: Detects open ports stealthily on a Linux server.
+
+What risks are associated with open ports?
+Open ports expose services that could be vulnerable to exploits, brute-force attacks, or data leaks.
+Example: An open Telnet port (23) can be exploited for remote access.
+
+Difference between TCP and UDP scanning?
+TCP scans rely on connection responses; UDP scans are slower and detect services without handshakes.
+Example: TCP 80 for HTTP vs. UDP 53 for DNS.
+
+How can open ports be secured?
+Disable unused ports, use firewalls, apply service restrictions, and enable encryption or authentication.
+Example: Close port 21 (FTP) if not used; switch to SFTP.
+
+What is a firewall's role regarding ports?
+Firewalls block or allow traffic based on port rules, controlling access to network services.
+Example: Blocking port 3389 (RDP) from public internet.
+
+What is a port scan and why do attackers perform it?
+A port scan maps open ports to find potential entry points for exploitation.
+Example: Scanning a company’s server to detect open SSH for brute-force.
+
+How does Wireshark complement port scanning?
+Wireshark captures and analyzes packet-level responses to port scans, helping validate scan results or detect suspicious scans.
+Example: Verifying Nmap SYN scans with packet traces.
