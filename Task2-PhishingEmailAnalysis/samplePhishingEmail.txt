@@ -1,0 +1,14 @@
+From: amaz0n-secure@support.com  
+To: your-email@example.com  
+Subject: Important Notice – Your Amazon Account Will Be Locked  
+
+Dear Customer,
+
+We detected suspicious activity in your Amazon account. To avoid suspension, please verify your account by clicking the link below:
+
+http://amaz0n.verification-alerts.com/securelogin
+
+Failure to do so in the next 24 hours will result in permanent suspension.
+
+Thank you,  
+Amazon Security Team
