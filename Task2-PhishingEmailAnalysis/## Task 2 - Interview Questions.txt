@@ -1,0 +1,62 @@
+## Task 2 - Interview Questions & Answers
+
+---
+
+### 1. What is phishing?  
+Phishing is a type of cyberattack where attackers send fake emails pretending to be from trusted companies. The goal is to steal sensitive data like login credentials, financial information, or personal identity.
+
+---
+
+### 2. How to identify a phishing email?  
+You can spot a phishing email by checking for:
+- Suspicious sender addresses  
+- Urgent or threatening language  
+- Generic greetings like “Dear Customer”  
+- Spelling or grammar mistakes  
+- Suspicious links (hover to check actual destination)  
+- Unexpected attachments
+
+---
+
+### 3. What is email spoofing?  
+Email spoofing is when attackers forge the sender's email address to make it appear as if the email is coming from someone you know or trust, like a bank or service provider.
+
+---
+
+### 4. Why are phishing emails dangerous?  
+Phishing emails can:
+- Steal sensitive data  
+- Spread malware  
+- Lead to financial loss  
+- Enable identity theft  
+- Compromise accounts or systems
+
+---
+
+### 5. How can you verify the sender’s authenticity?  
+- Check the full email address, not just the display name  
+- Hover over any links (don’t click) to verify their destination  
+- Use an email header analyzer to verify where the message came from  
+- Contact the company directly using official websites
+
+---
+
+### 6. What tools can analyze email headers?  
+- Google’s Message Header Analyzer  
+- MXToolbox  
+- Mail Header Analyzer  
+These tools reveal the real sender’s IP address and domain path.
+
+---
+
+### 7. What actions should be taken on suspected phishing emails?  
+- Do not click any links or download attachments  
+- Report it to your IT/security team  
+- Mark it as phishing in your email platform  
+- Delete the message
+
+---
+
+### 8. How do attackers use social engineering in phishing?  
+Attackers manipulate emotions like fear, urgency, or curiosity to make you act quickly without thinking.  
+Example: “Your account will be locked in 1 hour! Click here to fix it.”
