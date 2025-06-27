@@ -1,0 +1,37 @@
+📘 Interview Questions & Answers – Task 4: Firewall Configuration
+1. What is a firewall?
+A firewall is like a security guard for your computer or network. It monitors and controls incoming and outgoing network traffic based on rules you set. For example, just like a building security guard checks who can enter or leave, a firewall checks what data can come into or go out of your system.
+
+2. Difference between stateful and stateless firewall?
+A stateful firewall keeps track of ongoing connections and makes smarter decisions. It's like remembering that someone went inside the house, so it allows them to come out later.
+A stateless firewall checks each request individually without memory—like checking every person every time even if they were just inside. Stateful is more secure and common in modern systems.
+
+3. What are inbound and outbound rules?
+
+Inbound rules control what data can enter your computer.
+
+Outbound rules control what data your computer can send out.
+For example, if you block port 23 (Telnet) with an inbound rule, no one can remotely connect to your device through Telnet.
+
+4. How does UFW simplify firewall management?
+UFW (Uncomplicated Firewall) is a tool used in Linux that makes it easier to set firewall rules using simple commands like ufw allow 22 to allow SSH. Instead of writing complex iptables rules, you use readable commands. It's like using a remote instead of pressing lots of TV buttons.
+
+5. Why block port 23 (Telnet)?
+Port 23 is used by Telnet, which sends data in plain text without encryption. That means hackers can easily read usernames and passwords if you use Telnet. Since it’s insecure, it's best to block this port to avoid risks.
+
+6. What are common firewall mistakes?
+
+Leaving unused ports open
+
+Allowing all traffic by mistake
+
+Not updating firewall rules regularly
+
+Blocking essential services by accident
+It's like locking your house but leaving a window open or locking the kitchen and not the front door.
+
+7. How does a firewall improve network security?
+A firewall acts as the first line of defense. It blocks unauthorized access and prevents malware or hackers from entering your system. It’s like having a smart lock on your house that only opens for trusted people.
+
+8. What is NAT in firewalls?
+NAT (Network Address Translation) hides your internal IP address when accessing the internet. It’s like using a mask at a costume party—people see the mask (your public IP), not your face (private IP). Firewalls often use NAT to protect devices in a local network.
