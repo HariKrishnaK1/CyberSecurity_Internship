@@ -1,0 +1,30 @@
+Firewall Configuration Steps - Task 4
+=====================================
+
+1. Opened Windows Firewall Management Console:
+   - Pressed `Windows + R`, typed `wf.msc` and hit Enter.
+
+2. Created an Inbound Rule to Block Port 23 (Telnet):
+   - Clicked on "Inbound Rules" in the left pane.
+   - Selected "New Rule..." from the right panel.
+   - Chose "Port" and clicked "Next".
+   - Selected "TCP" and specified port 23.
+   - Selected "Block the connection".
+   - Applied the rule to all profiles (Domain, Private, Public).
+   - Gave the rule a name: `Block Telnet Port 23`.
+   - Clicked Finish.
+
+3. Tested the Rule:
+   - Opened Command Prompt and typed:
+     `telnet localhost 23`
+   - Connection was refused, indicating the port was blocked.
+
+4. Removed the Test Rule:
+   - Returned to the Firewall console (`wf.msc`).
+   - Located the `Block Telnet Port 23` rule under "Inbound Rules".
+   - Right-clicked and selected "Delete".
+
+5. Summary:
+   - Successfully learned how to block a specific port.
+   - Understood how firewall rules filter traffic.
+   - Tested and verified the behavior using a command-line test.
