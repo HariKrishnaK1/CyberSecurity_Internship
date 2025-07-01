@@ -1,0 +1,41 @@
+🔐 Task 6: Interview Questions & Answers (Password Strength & Evaluation)
+
+What makes a password strong?
+A strong password is long, unpredictable, and includes uppercase + lowercase letters, numbers, and symbols.
+📌 Example: R@mraJ$05 is stronger than ramraj123 because it's complex and hard to guess.
+
+What are common password attacks?
+
+Brute Force – attacker tries every possible combination.
+
+Dictionary Attack – uses a list of common passwords like 123456, password, abc123.
+📌 Example: If your password is iloveyou, it might be in the attacker's dictionary.
+
+Why is password length important?
+The longer the password, the harder it is to crack. Each added character increases the time needed to guess it.
+📌 Example: Mypassword123 takes longer to break than Mypwd.
+
+What is a dictionary attack?
+It’s when hackers use a list of common words or passwords to guess yours.
+📌 Example: If you use hello123, it’s likely in the dictionary and easily guessed.
+
+What is multi-factor authentication (MFA)?
+It's adding extra layers of security—like entering a code sent to your phone, in addition to your password.
+📌 Example: Logging into Gmail and then entering a 6-digit code sent to your mobile.
+
+How do password managers help?
+They store and create strong passwords for every site, so you don’t have to remember all of them.
+📌 Example: Tools like LastPass or Bitwarden can generate X8$#ks92@Uq and save it for you.
+
+What are passphrases?
+A passphrase is a long, easy-to-remember sentence used as a password.
+📌 Example: ILoveMyDog$Buddy2025 – it’s strong and easy to remember!
+
+What are common mistakes in password creation?
+
+Using names or birthdays
+
+Reusing the same password
+
+Using short or common words
+📌 Example: Hari@2003 is guessable, especially if someone knows you.
