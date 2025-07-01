@@ -1,0 +1,39 @@
+📡 Task 5: Interview Questions
+
+Capture & Analyze Network Traffic Using Wireshark
+
+What is Wireshark used for?
+Wireshark is a free tool used to capture and analyze live network traffic. It helps identify protocols, troubleshoot network issues, and monitor data flow between systems.
+
+What is a packet?
+A packet is a small chunk of data sent over a network. It includes both the actual data and control information like source/destination. Think of it like a digital envelope carrying a message.
+
+How to filter packets in Wireshark?
+You can filter packets using the display filter bar. For example:
+
+http shows only HTTP packets
+
+tcp.port == 80 shows traffic on port 80
+
+ip.addr == 192.168.0.1 filters for a specific IP address
+
+What is the difference between TCP and UDP?
+
+TCP (Transmission Control Protocol): Reliable, connection-based. Used for emails, websites.
+
+UDP (User Datagram Protocol): Faster, connectionless. Used in gaming, video calls.
+Example: Watching a video call (UDP), downloading a file (TCP).
+
+What is a DNS query packet?
+It’s a request sent by your computer to a DNS server asking for the IP address of a website.
+Example: Typing google.com sends a DNS query to get its IP.
+
+How can packet capture help in troubleshooting?
+It allows you to see what data is being sent and received, helping to identify issues like slow loading, packet loss, or unauthorized access.
+
+What is a protocol?
+A protocol is a set of rules that define how devices communicate over a network.
+Examples: HTTP, FTP, DNS, TCP/IP.
+
+Can Wireshark decrypt encrypted traffic?
+Not usually. Wireshark can't decrypt HTTPS or other encrypted traffic unless you have the keys and configure it properly.
