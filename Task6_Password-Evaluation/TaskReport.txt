@@ -1,0 +1,37 @@
+🔐 Password Strength Evaluation Report
+🧪 Objective:
+To test and analyze the strength of various passwords and understand how complexity, length, and structure affect password security.
+
+🧩 Passwords Tested and Scores:
+S.No	Password	Strength Score	Feedback Summary
+1	123456	4	Very weak – common password, too short, no complexity.
+2	abc123	32	Weak – predictable pattern, lacks symbols and case variety.
+3	Ram@2025	89	Good – includes uppercase, lowercase, numbers, and symbols.
+4	R@mraJ$05	92	Strong – good complexity, mixed characters, not guessable.
+5	H!mEetMe@5!	100	Excellent – long, complex, hard to crack, highly secure.
+
+Note: Passwords were tested using passwordmeter.com and similar online checkers.
+
+🔍 Observations:
+Simple or common passwords like 123456 or abc123 are extremely easy to crack and should never be used.
+
+Adding uppercase letters, special symbols, and numbers significantly improves password strength.
+
+Length also plays a major role. A longer password like H!mEetMe@5! provides much better security than shorter ones.
+
+🔐 Best Practices Learned:
+Use at least 12 characters.
+
+Include a mix of uppercase, lowercase, numbers, and special characters.
+
+Avoid dictionary words and personal info.
+
+Prefer passphrases (like Purple!Rain$1984) for better memorability and strength.
+
+Always enable multi-factor authentication (MFA) when possible.
+
+Consider using a password manager to store complex passwords.
+
+🛡️ Conclusion:
+This task helped understand that even small changes in password structure can drastically affect security. Strong, unpredictable passwords are the first line of defense against common attacks like brute force or dictionary attacks.
+
